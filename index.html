@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/profile_studio_clean.jpg" />
+
+    <title>Usham Koushik Reddy — Software Developer & Data Science Student</title>
+    <meta
+      name="description"
+      content="Portfolio of Usham Koushik Reddy — Computer Science (Data Science) student at CMR Technical Campus, Hyderabad. React and FastAPI projects, data structures practice, and selected work."
+    />
+    <meta
+      name="keywords"
+      content="Usham Koushik Reddy, Koushik Reddy, software developer Hyderabad, data science student, React developer, FastAPI developer, Java, DSA, portfolio"
+    />
+    <meta name="author" content="Usham Koushik Reddy" />
+    <meta name="theme-color" content="#0A0812" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#F7F6FB" media="(prefers-color-scheme: light)" />
+    <link rel="canonical" href="https://koushikreddy.dev/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Usham Koushik Reddy" />
+    <meta property="og:title" content="Usham Koushik Reddy — Software Developer & Data Science Student" />
+    <meta
+      property="og:description"
+      content="Computer Science (Data Science) student in Hyderabad. I build web apps with React and FastAPI, and practise data structures and algorithms."
+    />
+    <meta property="og:url" content="https://koushikreddy.dev/" />
+    <meta property="og:image" content="/profile.jpg" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Usham Koushik Reddy — Software Developer" />
+    <meta
+      name="twitter:description"
+      content="Computer Science (Data Science) student in Hyderabad building with React and FastAPI."
+    />
+    <meta name="twitter:image" content="/profile.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Usham Koushik Reddy",
+        "jobTitle": "Software Developer",
+        "email": "mailto:ushamkoushikreddy@gmail.com",
+        "url": "https://koushikreddy.dev/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Hyderabad",
+          "addressCountry": "IN"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "CMR Technical Campus"
+        },
+        "sameAs": [
+          "https://github.com/koushikrddy",
+          "https://www.linkedin.com/in/koushik-reddy-usham/",
+          "https://leetcode.com/u/koushik_reddy__127/"
+        ]
+      }
+    </script>
+
+    <script>
+      // Apply the saved theme before first paint to avoid a flash of the wrong theme.
+      (function () {
+        try {
+          var stored = localStorage.getItem("kr-theme");
+          // Dark is the default identity of this site; the toggle persists a choice.
+          var theme = stored === "light" ? "light" : "dark";
+          document.documentElement.classList.toggle("dark", theme === "dark");
+          document.documentElement.classList.toggle("light", theme === "light");
+        } catch (e) {
+          /* ignore */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 2rem; font-family: system-ui, sans-serif">
+        This portfolio needs JavaScript enabled. You can reach me at
+        <a href="mailto:ushamkoushikreddy@gmail.com">ushamkoushikreddy@gmail.com</a>.
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
